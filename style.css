@@ -20,11 +20,13 @@
      
  }
  .header{
-     max-width: 1140px;
+     max-width: 1040px;
      height: 100px;
      margin: auto;
      display: flex;
      color: white;
+     align-items: center;
+
 
 
  }
@@ -34,9 +36,25 @@
      height: 79px;
      background-image: url('./images/logo-branco.png');
  }
- .logo{
-
+ .menu ul,
+ .menu li{
+     list-style: none;
  }
  .menu{
-     
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+ }
+ .menu ul{
+     display: flex;
+ }
+ .menu li a {
+     color: #fff;
+     text-transform: uppercase;
+     font-weight: bold;
+     text-decoration: none;
+     padding-left: 5px;
+     padding-right: 5px;
+     font-size: 20px;
+
  }
