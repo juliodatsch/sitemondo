@@ -6,6 +6,7 @@
     font: 11px;
     font-weight: lighter;
  }*/
+ 
   body{ margin: 0; padding: 0;box-sizing: border-box;}
  .header{max-width: 1040px;height: 100px; margin: auto;display: flex; color: white; align-items: center;}
  .logoimg {margin-top: 40px;width: 200px; height: 79px;background-image: url('./images/logo-branco.png'); }
@@ -20,91 +21,40 @@
 .slider{
    overflow: hidden;
     flex: 1;
-    width: 1000vw;
+    height: 350px;
+    
 }
 .slider--width{
-    width: 1000vw;
+    
+    height: 100%;
     display: flex;
+    
 }
-.slider--item1{
-    background-image:url(./images/ini/1.jpg) ;
-    width: 200px;
-    height: 350px;
+.slider--item{
+    
+    width: 30vw;
+    height: inherit;
     background-size: cover;
-    margin-left: 210px;
-    padding-left: 180px;
+    background-position: center;
+   
 }
-.slider--item2{
-    background-image:url(./images/ini/2.jpg) ;
-    width: 200px;
-    height: 350px;
-    background-size: cover;
-    margin-left: 200px;
-    padding-left: 150px;
+
+.controls{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
-.slider--item3{
-    background-image:url(./images/ini/3.jpg) ;
-    width: 200px;
-    height: 350px;
-    background-size: cover;
-    margin-left: 200px;
-    padding-left: 150px;
-}
-.slider--item4{
-    background-image:url(./images/ini/4.jpg) ;
-    width: 200px;
-    height: 350px;
-    background-size: cover;
-    margin-left: 200px;
-    padding-left: 150px;
-}
-.slider--item5{
-    background-image:url(./images/ini/5.jpg) ;
-    width: 200px;
-    height: 350px;
-    background-size: cover;
-    margin-left: 200px;
-    padding-left: 150px;
-}
-.slider--item6{
-    background-image:url(./images/ini/6.jpg) ;
-    width: 200px;
-    height: 350px;
-    background-size: cover;
-    margin-left: 200px;
-    padding-left: 150px;
-}
-.slider--item7{
-    background-image:url(./images/ini/7.jpg) ;
-    width: 200px;
-    height: 350px;
-    background-size: cover;
-    margin-left: 200px;
-    padding-left: 150px;
-}
-.slider--item8{
-    background-image:url(./images/ini/8.jpg) ;
-    width: 200px;
-    height: 350px;
-    background-size: cover;
-    margin-left: 200px;
-    padding-left: 150px;
-}
-.slider--item9{
-    background-image:url(./images/ini/9.jpg) ;
-    width: 200px;
-    height: 350px;
-    background-size: cover;
-    margin-left: 200px;
-    padding-left: 150px;
-}
-.slider--item10{
-    background-image:url(./images/ini/10.jpg) ;
-    width: 200px;
-    height: 350px;
-    background-size: cover;
-    margin-left: 200px;
-    padding-left: 150px;
+.control{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 
