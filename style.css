@@ -6,55 +6,26 @@
     font: 11px;
     font-weight: lighter;
  }*/
+  body{ margin: 0; padding: 0;box-sizing: border-box;}
+ .header{max-width: 1040px;height: 100px; margin: auto;display: flex; color: white; align-items: center;}
+ .logoimg {margin-top: 40px;width: 200px; height: 79px;background-image: url('./images/logo-branco.png'); }
+ .mlogo{ background-image: url('./images/LOGO-OFOCIAL-MH-02-09-2020-1-300x300.png'); margin-top: 200px; width: 300px; height: 200px; margin-left: 150px; }
+ .mlogo1{margin-top: 200px; width: 200px; height: 79px; background-image: url('./images/logo-branco.png'); margin-left: 60px;}
+  header { height: 350px; background-image: url("./images/Mondocabeçario.jpg"); background-size: cover; }
+ .menu ul, .menu li{ list-style: none; }
+ .menu{ flex: 1; display: flex; justify-content: flex-end; }
+ .menu ul{ display: flex; }
+ .menu li a { color: #fff; text-transform: uppercase; font-weight:lighter; text-decoration: none; padding-left: 5px; padding-right: 5px; font-size: 18 px; }
+.banner{ height: 250px; overflow: hidden;}
+.banner .sliders{
+ width: 1000vw;
+ height: 100%;
+}
 
- body{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
- header {
-     height: 400px;
-     background-image: url("./images/Mondocabeçario.jpg") ;
-     background-size: cover;
-  
-     
- }
- .header{
-     max-width: 1040px;
-     height: 100px;
-     margin: auto;
-     display: flex;
-     color: white;
-     align-items: center;
-
-
-
- }
- .logoimg {
-     margin-top: 40px;
-     width: 200px;
-     height: 79px;
-     background-image: url('./images/logo-branco.png');
- }
- .menu ul,
- .menu li{
-     list-style: none;
- }
- .menu{
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
- }
- .menu ul{
-     display: flex;
- }
- .menu li a {
-     color: #fff;
-     text-transform: uppercase;
-     font-weight: bold;
-     text-decoration: none;
-     padding-left: 5px;
-     padding-right: 5px;
-     font-size: 20px;
-
- }
+.banner .slide{
+    width: 40vw;
+    height: 100%;
+    display: inline-block;
+    background-color: black;
+    padding-left: 150px;
+}
