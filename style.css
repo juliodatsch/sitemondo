@@ -17,45 +17,47 @@
  .menu{ flex: 1; display: flex; justify-content: flex-end; }
  .menu ul{ display: flex; }
  .menu li a { color: #fff; text-transform: uppercase; font-weight:lighter; text-decoration: none; padding-left: 5px; padding-right: 5px; font-size: 18 px; }
-
-.slider{
-   overflow: hidden;
-    flex: 1;
-    height: 350px;
+.slider{overflow: hidden;flex: 1;height: 350px;}
+.slider--width{height: 100%;display: flex;transition: all ease 0.5s;}
+.slider--item{width: 30vw;height: inherit;background-size: cover;background-position: center;margin-right: 150px;margin-left: 150px;justify-content: center;}
+.controls{position: absolute;z-index: 99; width: 100%; display: flex; justify-content: space-between; align-items: center;}
+.control{ width: 60px; height: 45px; overflow: hidden; cursor: pointer;}
+.sobre{
+    flex:1;
+    height: 200px;
+    background-color: #2B2D30;
+    color: #fff;
     
 }
-.slider--width{
-    
-    height: 100%;
-    display: flex;
+.sobre h1,h2, h3{
+    margin-left: 80px;
     
 }
-.slider--item{
-    
-    width: 30vw;
-    height: inherit;
+.sobre h1{
+    padding-top: 30px;
+}
+.sobre h2 u a{
+    color: #fff;
+}
+.prod{
+    background: url("./images/Mondocabeçario.jpg") center top no-repeat fixed;
     background-size: cover;
-    background-position: center;
-   
+    height: 400px;
+    
+     
 }
+.imgprod{
 
-.controls{
+    width: 300px;
+    height:300px;
     position: absolute;
-    z-index: 99;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-size: cover;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-left: 40px;
 
 }
-.control{
-    width: 50px;
-    height: 50px;
-    background-color: black;
-    border-radius: 50%;
-    overflow: hidden;
-    cursor: pointer;
-}
+
 
 
 

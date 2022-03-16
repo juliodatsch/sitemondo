@@ -1,5 +1,5 @@
 let currentSlide=0;
-let totalSlides = document.querySelectorAll('.slider--item').length;
+let totalSlides = 5;
 
 document.querySelector('.slider--width').style.width = `calc(100vw * ${totalSlides})`;
 document.querySelector('.controls').style.height = `${document.querySelector('.slider').clientHeight}px`;
@@ -22,5 +22,6 @@ function goNext(){
 
 function updateMargin(){
     let newMargin = (currentSlide * document.body.clientWidth);
-    document.querySelector('.slider--width').style.marginLeft = `${newMargin}px`;
+    document.querySelector('.slider--width').style.marginLeft = `-${newMargin}px`;
 }
+setInterval(goNext, 2000);
