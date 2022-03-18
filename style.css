@@ -24,7 +24,7 @@ header { height: 350px; background-image: url("./images/Mondocabeçario.jpg"); b
 .menu li a:hover{color:#fff;}
 .menu li  ul{position:absolute;top:30px;left:0;padding-left: 0;display:none;}
 .menu li:hover ul, .menu li.over ul{display:block;}
-.slider{overflow: hidden;flex: 1;height: 350px;}
+.slider{overflow: hidden;flex: 1;height: 370px;display: flex;}
 .slider--width{height: 100%;display: flex;transition: all ease 0.5s;}
 .slider--item{width: 30vw;height: inherit;background-size: cover;background-position: center;margin-right: 150px;margin-left: 150px;justify-content: center;}
 .controls{position: absolute;z-index: 99; width: 100%; display: flex; justify-content: space-between; align-items: center;}
@@ -34,7 +34,7 @@ header { height: 350px; background-image: url("./images/Mondocabeçario.jpg"); b
 .sobre h1{font-size: 25px;padding-top: 30px;}
 .sobre h2{font-size: 20px;font-weight: lighter;}
 .sobre h2 u a{color: #fff;font-size: 20px;}
-.prod{background: url("./images/Mondocabeçario.jpg") center center no-repeat fixed; background-size: cover;height: 500px;}
+.prod{background: url("./images/Mondocabeçario.jpg") center center no-repeat fixed; background-size: cover;height: 500px;flex: 1;}
 .imgprod{ width: 300px; height:300px; position: absolute; background-size: cover; border-radius: 100%; margin-top: 25px; margin-left: 70px;}
 .imgprod h2{margin-top: 320px;color: #fff;margin-left: 110px;font-size: 28px;font-family: Arial, Helvetica, sans-serif;}
 .imgprod p{ margin-top: 10px; color: #fff;font-size: 18px;width:400px ; align-items: center; margin-left: -35px; font-family: Arial, Helvetica, sans-serif;}
